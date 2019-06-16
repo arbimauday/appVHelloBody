@@ -1,0 +1,31 @@
+{
+  "name": "HelloBody",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.17",
+    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "@fortawesome/react-native-fontawesome": "^0.1.0",
+    "react": "16.6.3",
+    "react-native": "0.58.6",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-navigation": "^3.9.0",
+    "react-timer-mixin": "^0.13.4"
+  },
+  "devDependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.1.0",
+    "instabug-reactnative": "^8.0.23",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.53.0",
+    "path": "^0.12.7",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
